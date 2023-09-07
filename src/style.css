@@ -1,0 +1,77 @@
+header{
+    background-color:#f9f6f6;
+}
+
+h1 {
+    color: #710938;
+    text-align: center;
+    font-family: Roboto;
+    font: bold;
+
+}
+
+[name='user-input'] {
+    display: block;
+    -moz-box-align: center;
+    font-family: Roboto;
+    color: #260112;
+    background-color: #faefef;
+    margin: 0 auto;
+    text-align-last: left;
+    padding: 7px;
+    border-radius: 6px;
+    border: 1.5px solid #260112;
+}
+
+textarea::placeholder {
+    color: rgb(118, 116, 116);
+    font-family: Roboto;
+}
+
+
+ul {
+    align-content: center;
+    display:block;
+    list-style: none;
+    margin:20px 35%;
+
+}
+
+.block,
+.li {
+    box-sizing: content-box;
+    display: block;
+    width: 250px;
+    background-color: #F2D8D8;
+    color: #260112;
+    border: none;
+    border-radius: 6px;
+    margin: 6px;
+    padding: .5em;
+    text-orientation: sideways-right;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+#reset-button {
+    color: #F2F2F2;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    font-family: Roboto;
+    font: bold;
+    background-color: #710938;
+
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+    color: #401227;
+    font-family: Roboto;
+}
