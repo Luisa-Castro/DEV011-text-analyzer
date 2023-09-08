@@ -1,52 +1,65 @@
-header{
-    background-color:#f9f6f6;
+header {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 410px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.70)
 }
 
 h1 {
-    color: #710938;
+    color: #007482;
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font: bold;
 
 }
 
+body {
+    display: block;
+    background-image: url(https://img.freepik.com/foto-gratis/letras-espacio-medio_23-2147695535.jpg?w=1060&t=st=1694134437~exp=1694135037~hmac=e582d509bbcfdddd237dd2f2707a6d928ca7e22b0bd91c174f6446fb540a1fa8);
+    background-size:cover;
+}
+
 [name='user-input'] {
     display: block;
-    -moz-box-align: center;
     font-family: Roboto;
-    color: #260112;
-    background-color: #faefef;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.80);
+    background-color: #f8f4f4;
     margin: 0 auto;
     text-align-last: left;
     padding: 7px;
     border-radius: 6px;
-    border: 1.5px solid #260112;
+    border: 1.5px solid #007482;
 }
 
 textarea::placeholder {
-    color: rgb(118, 116, 116);
+    color: #007482;
     font-family: Roboto;
+    font: 14px;
 }
 
 
 ul {
-    align-content: center;
-    display:block;
+    width: 50%;
+    display: block;
     list-style: none;
-    margin:20px 35%;
-
+    margin-left: 24.7%;
+    margin-top: 30px;
 }
 
-.block,
+
 .li {
-    box-sizing: content-box;
-    display: block;
+    align-items: stretch;
+    display: inline-block;
     width: 250px;
-    background-color: #F2D8D8;
-    color: #260112;
+    background-color: #e5dacd;
+    color: #007482;
     border: none;
     border-radius: 6px;
-    margin: 6px;
+    margin: 5px;
     padding: .5em;
     text-orientation: sideways-right;
     font-size: 17px;
@@ -62,16 +75,24 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 23px;
-    font-family: Roboto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font: bold;
-    background-color: #710938;
+    background-color: #007482;
 
 }
 
 footer {
-    width: 50%;
+    height: 20px;
+    background-position: bottom;
+    background-color: #007482;
     margin: 0 auto;
-    color: #401227;
-    font-family: Roboto;
+    padding-top: 0.1%;
+    padding-bottom: 2%;
+    padding-left: 90px;
+    color: #e5dacd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
 }

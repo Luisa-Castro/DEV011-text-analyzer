@@ -50,7 +50,6 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     const textsplit = text.split(" ").filter(Boolean);
-    //let textfilter = textsplit.filter(Boolean);
     let Number_Sum = 0;
 
     for (let i = 0; i < textsplit.length; i++) {
