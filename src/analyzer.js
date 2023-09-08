@@ -28,7 +28,7 @@ const analyzer = {
       const wordlengt = textfilter[i].length;
       wordlengthsum = wordlengthsum + wordlengt;
     }
-    const word_length_prom = Number((wordlengthsum / textfilter.length));
+    const word_length_prom = Number((wordlengthsum / textfilter.length).toFixed(2));
 
     return word_length_prom;
   },

@@ -25,7 +25,7 @@ userInput.addEventListener("keyup", () => {
   document.querySelector("li[data-testid='character-count']").textContent = "Carácteres: " + characternum;
   const characterexcludingspacesnum = analyzer.getCharacterCountExcludingSpaces(userInput.value)
   document.querySelector("li[data-testid='character-no-spaces-count']").textContent = "Carácteres sin espacios ni signos: " + characterexcludingspacesnum;
-  const wordlengthprom = analyzer.getAverageWordLength(userInput.value).toFixed(2);
+  const wordlengthprom = analyzer.getAverageWordLength(userInput.value);
   document.querySelector("li[data-testid='word-length-average']").textContent = "Promedio longitud: " + wordlengthprom;
   const numcount = analyzer.getNumberCount(userInput.value);
   document.querySelector("li[data-testid='number-count']").textContent = "Números: " + numcount;
