@@ -15,8 +15,6 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
     const textsinesp = text.replaceAll(/[.,#!$%&*;:{}=\-_`~()]/g, "");
     const Character_Excluding_Spaces = textsinesp.replaceAll(" ", "").length;
-
-    //console.log('texto sin signos: '+Character_Excluding_Spaces)
     return Character_Excluding_Spaces;
 
   },
@@ -30,7 +28,7 @@ const analyzer = {
       const wordlengt = textfilter[i].length;
       wordlengthsum = wordlengthsum + wordlengt;
     }
-    const word_length_prom = Number((wordlengthsum / textfilter.length).toFixed(2));
+    const word_length_prom = Number((wordlengthsum / textfilter.length));
 
     return word_length_prom;
   },

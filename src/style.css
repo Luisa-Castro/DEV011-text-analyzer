@@ -22,7 +22,7 @@ body {
     background-size:cover;
 }
 
-[name='user-input'] {
+textarea[name="user-input"] {
     display: block;
     font-family: Roboto;
     font-size: 15px;
