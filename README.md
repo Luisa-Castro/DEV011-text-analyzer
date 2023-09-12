@@ -66,7 +66,8 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
 
 3. La aplicación limpia el contenido de la caja de texto por medio de un botón.
 
-![Text analyzer demo](https://cdn.loom.com/sessions/thumbnails/7e09e463a78d4a01b82d05e4f8a6c256-1694490867963-with-play.gif "Text analyzer demo")
+![Text analyzer demo](https://cdn.loom.com/sessions/thumbnails/7e09e463a78d4a01b82d05e4f8a6c256-1694497436412-with-play.gif "Text analyzer demo")
+
 
 ## 5.  Descripción de scripts / archivos
 
