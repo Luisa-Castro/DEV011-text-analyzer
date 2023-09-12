@@ -86,7 +86,7 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
 3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
-![Text analyzer demo](https://www.loom.com/share/7e09e463a78d4a01b82d05e4f8a6c256?sid=b2f48d1c-afaf-4df7-ad1d-e91690d4bcaa "Text analyzer demo")
+![Text analyzer demo](https://www.youtube.com/watch?v=pblnerrBwR0 "Text analyzer demo")
 
 ## 5. Boilerplate
 

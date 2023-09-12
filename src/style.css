@@ -1,10 +1,12 @@
+
+
 header {
     margin-top: 90px;
     margin-bottom: 50px;
-    margin: 0 auto;
     border-radius: 5px;
-    width: 410px;
-    text-align: center;
+    width: 30%;
+    margin-left: 41%;
+    margin-right: 41%;
     background-color: rgba(255, 255, 255, 0.70)
 }
 
@@ -17,9 +19,8 @@ h1 {
 }
 
 body {
-    display: block;
     background-image: url(https://img.freepik.com/foto-gratis/letras-espacio-medio_23-2147695535.jpg?w=1060&t=st=1694134437~exp=1694135037~hmac=e582d509bbcfdddd237dd2f2707a6d928ca7e22b0bd91c174f6446fb540a1fa8);
-    background-size:cover;
+    background-size:108%;
 }
 
 textarea[name="user-input"] {
@@ -28,7 +29,8 @@ textarea[name="user-input"] {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.80);
     background-color: #f8f4f4;
-    margin: 0 auto;
+    margin-left: 32%;
+    margin-right: 32%;
     text-align-last: left;
     padding: 7px;
     border-radius: 6px;
@@ -46,7 +48,7 @@ ul {
     width: 50%;
     display: block;
     list-style: none;
-    margin-left: 24.7%;
+    margin-left: 28%;
     margin-top: 30px;
 }
 
@@ -54,7 +56,7 @@ ul {
 .li {
     align-items: stretch;
     display: inline-block;
-    width: 250px;
+    width: 280px;
     background-color: #e5dacd;
     color: #007482;
     border: none;
@@ -73,8 +75,8 @@ ul {
     border-radius: 10px;
     border: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 52%;
+    margin-right: 52%;
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 23px;
